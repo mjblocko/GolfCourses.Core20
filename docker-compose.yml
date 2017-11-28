@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  golfcourses.core20:
+    image: golfcourses.core20
+    build:
+      context: ./GolfCourses.Core20
+      dockerfile: Dockerfile
